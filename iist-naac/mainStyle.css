@@ -1,0 +1,463 @@
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+    }
+
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+
+    .responsive_head {
+      font-size: 1.5em;
+    }
+
+    .courses-box1 .single-item-wrapper {
+      background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+      border-radius: 5px;
+      color: white;
+      height: 250px;
+    }
+
+    .courses-box1 .single-item-wrapper p {
+      color: white;
+      text-align: center;
+      font: 1.3em sans-serif;
+    }
+
+    .parallax_coordinator {
+      /* The image used */
+      background-image: url("../admission/admission_img/ib.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    @media only screen and (min-width: 767px) {
+      .txtsize {
+        font-size: 26px;
+      }
+
+      .container2 {
+        padding: 0px 20px 0px 20px;
+      }
+
+    }
+
+    @media only screen and (max-width: 767px) {
+      .txtsize {
+
+        font-size: 20px;
+      }
+
+      .responsive_head {
+        font-size: 1.3em;
+      }
+
+      .container2 {
+        padding: 0px 30px 0px 30px;
+      }
+
+      .courses-box1 .single-item-wrapper p {
+        font-size: 1.0em;
+      }
+
+      .parallax_coordinator {
+        padding-bottom: 5%;
+      }
+
+
+    }
+
+
+
+    .sec-title-2 {
+      position: relative;
+      margin-bottom: 28px;
+    }
+
+    .sec-title-2 h2 {
+      position: relative;
+      text-transform: capitalize;
+      z-index: 1;
+      text-align: center;
+
+    }
+
+
+
+    /*=============================================
+    Testmonial Area
+=============================================*/
+    .testmonial-area {
+      position: relative;
+      width: 100%;
+      padding: 64px 0 79px;
+    }
+
+    .testmonial-area .sec-title-2 h2,
+    .testmonial-area p,
+    .testmonial-area h3 {
+      color: #fff;
+    }
+
+    .testmonial-area .sec-title-2 h2:before,
+    .testmonial-area .sec-title-2 h2:after {
+      background-color: #fff;
+    }
+
+    .testmonial-area:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+    }
+
+
+    .testmonial-area .item-holder {
+      position: relative;
+      z-index: 2;
+    }
+
+
+    .testmonial-area .testmonial-carousel .single-item .text-holder {
+      position: relative;
+      width: 100%;
+      padding: 0 57px 0 72px;
+    }
+
+    .testmonial-area .testmonial-carousel .single-item .text-holder p {
+      text-align: left;
+      margin-bottom: 47px;
+      margin-top: 10px;
+    }
+
+
+    /**** Paralex Sec ****/
+    .parallax,
+    .fixed-bg {
+      background-size: cover !important;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .fixed-bg {
+      background-attachment: fixed !important;
+      background-size: cover !important;
+    }
+
+    .fixed-bg.stop {
+      background-attachment: scroll !important
+    }
+
+    .bg1 {
+      background-image: url(../admission/admission_img/para/aero.jpg);
+    }
+
+
+    .parallax123 {
+      /* The image used */
+      background-image: url("../admission/admission_img/placement/speakers-bg-black.jpg");
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #dimg2 {
+      border-radius: 5px;
+      transition: transform .4s;
+      -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+      box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+      margin: 0 auto;
+      height: auto;
+      width: auto;
+    }
+
+    #dimg2:hover {
+      -ms-transform: scale(1.0);
+      /* IE 9 */
+      -webkit-transform: scale(1.0);
+      /* Safari 3-8 */
+      transform: scale(1.0);
+    }
+
+
+
+    /*=======================================================================
+[13] Lecturers Area
+=========================================================================*/
+
+    .lecturers-img-wrapper {
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .lecturers-img-wrapper img {
+      width: 100%;
+      -webkit-transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      -ms-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out;
+      transition: all 1s ease-out;
+    }
+
+    .lecturers-img-wrapper:hover img {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+    .lecturers-content-wrapper {
+      text-align: center;
+    }
+
+    .lecturers-content-wrapper .item-title {
+      font-size: 1.2em;
+      font-weight: 100;
+      margin-bottom: 5px;
+      text-transform: capitalize;
+    }
+
+    .lecturers-content-wrapper .item-designation {
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    .post-img img {
+      background-color: white;
+    }
+
+    .mobile_view:hover {
+      background-color: none;
+    }
+
+    .courses-img-wrapper {
+      overflow: hidden;
+    }
+
+    .courses-img-wrapper img {
+      width: 100%;
+      -webkit-transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      -ms-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out;
+      transition: all 1s ease-out;
+    }
+
+    .courses-img-wrapper:hover img {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+
+    .p_desk {
+      float: left;
+      width: 100%;
+      /*background-color:#0c477f;
+    background: #0c477f url(../images/vc_desk.jpg) no-repeat;*/
+      background: #0c477f;
+      background: -webkit-linear-gradient(-55deg, #0c477f 0%, #0c477f 26.9%, #1d72c3 27%, #1d72c3 40.9%, #0c477f 41%, #0c477f 100%);
+      background: linear-gradient(125deg, #0c477f 0%, #0c477f 40.9%, #1d72c3 27%, #1d72c3 51.9%, #0c477f 41%, #0c477f 100%);
+      padding: 10px;
+      color: #fff;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* height:350px; */
+    }
+
+    .testimonialcard_R {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      background-color: white;
+      transition: 0.3s;
+      width: 95%;
+      border-radius: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .testimonial_R:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .testimonialcard_R iframe {
+      border-radius: 5px 5px 0 0;
+    }
+
+    .testimonialcontainer_R p {
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 480px) {
+      .txtsize {
+
+        font-size: 14px;
+      }
+
+      .responsive_head {
+        font-size: 1.2em;
+      }
+
+      .container2 {
+        padding: 0px 30px 0px 30px;
+      }
+
+      .courses-box1 .single-item-wrapper p {
+        font-size: 0.8em;
+      }
+
+      .p_txtsize_ad {
+        font-size: 0.7em;
+      }
+
+      .img_mobile {
+        min-height: 300px;
+      }
+
+      .courses-content-wrapper {
+        font-size: 1.5em;
+      }
+
+      .parallax123 {
+
+        background-attachment: scroll !important;
+        background-size: cover !important;
+
+      }
+
+
+    }
+
+    /* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+
+    #sidebarNav {
+      min-width: 250px;
+      max-width: 450px;
+      background: #08356c;
+      color: #fff;
+      transition: all 0.3s;
+    }
+
+    #sidebarNav a,
+    #sidebarNav a:hover,
+    #sidebarNav a:focus {
+      color: inherit;
+    }
+
+    #sidebarNav.activeNav {
+      margin-left: -250px;
+    }
+
+    #sidebarNav .sidebar-headerNav {
+      padding: 20px;
+      background: #104688;
+    }
+    #sidebarNav .sidebar-headerNav1 {
+        padding: 0px;
+        background: #104688;
+      }
+
+    #sidebarNav ul.componentsNav {
+      padding: 20px 0;
+      border-bottom: 1px solid #47748b;
+    }
+
+    #sidebarNav ul p {
+      color: #fff;
+      padding: 10px;
+    }
+
+    #sidebarNav ul li a {
+      padding: 10px;
+      font-size: 1.1em;
+      display: block;
+    }
+
+    #sidebarNav ul li a:hover {
+      color: #08356c;
+      background: #fff;
+    }
+
+    #sidebarNav ul li.activeNav>a,
+    .sideNavMan a[aria-expanded="true"] {
+      color: #fff;
+      background: #104688;
+    }
+
+    .sideNavMan a[data-toggle="collapse"] {
+      position: relative;
+    }
+
+    .sideNavMan a[aria-expanded="false"]::before,
+    .sideNavMan a[aria-expanded="true"]::before {
+      content: '\e259';
+      display: block;
+      position: absolute;
+      right: 20px;
+      font-family: 'Glyphicons Halflings';
+      font-size: 0.6em;
+    }
+
+    .sideNavMan a[aria-expanded="true"]::before {
+      content: '\e260';
+    }
+
+    .clspse li a {
+      font-size: 0.9em !important;
+      padding-left: 30px !important;
+      background: #104688;
+    }
+
+    .clspse ul a {
+      font-size: 0.9em !important;
+      padding-left: 50px !important;
+      background: #104688;
+    }
+
+
+
+    /* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+    @media (max-width: 768px) {
+      #sidebarNav {
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+      }
+
+      #sidebarNav.activeNav {
+        margin-left: 0;
+      }
+
+      #sidebarCollapse span {
+        display: none;
+      }
+    }
+    .activeselection{
+      background-color:#FF9F40;
+      border-radius: 10px;
+      color: black;
+    }
+  thead tr th{
+    justify-content: center;
+    text-align: center;
+  }
+  
