@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions 2020</title>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="shortcut icon" type="image/png" href="iist_logo.png">
+    <!-- FONT AWESOME 
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        media="all" />
+    <!-- Header Support-->
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|PT+Serif&amp;display=swap" rel="stylesheet" />
+    <!-- Header Support-->
+    <!-- MASTER  STYLESHEET 
+    <link rel="stylesheet" href="assets/css/123style-default.min.css" media="all" /> 
+  <link rel="stylesheet" href="admission_img/loader/main.css" type="text/css" />
+-->
+    <!-- Header Support-->
+    <!-- FONT AWESOME -->
+    <!-- Header Support-->
+    <!-- OWL CAROUSEL CSS  Academic Collaborations-->
+    <link rel="stylesheet" href="assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
+
+    <!-- MASTER  STYLESHEET  -->
+    <link rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
+    <!-- MODERNIZER CSS Placement div  -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Student placement div-->
+    <link rel="stylesheet" type="text/css" href="css/reImageGrid.css">
+    <link rel="stylesheet" type="text/css" href="branch.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" type="text/css" href="Feb_common_style.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery-grid.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+
+        .responsive_head {
+            font-size: 1.5em;
+        }
+
+        .courses-box1 .single-item-wrapper {
+            background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+            border-radius: 5px;
+            color: white;
+            height: 250px;
+        }
+
+        .courses-box1 .single-item-wrapper p {
+            color: white;
+            text-align: center;
+            font: 1.3em sans-serif;
+        }
+
+
+        @media only screen and (min-width: 767px) {
+            .txtsize {
+                font-size: 26px;
+            }
+
+            .container2 {
+                padding: 0px 20px 0px 20px;
+            }
+
+        }
+
+        @media only screen and (max-width: 767px) {
+            .txtsize {
+
+                font-size: 20px;
+            }
+
+            .responsive_head {
+                font-size: 1.1em;
+            }
+
+            .container2 {
+                padding: 0px 30px 0px 30px;
+            }
+
+            .courses-box1 .single-item-wrapper p {
+                font-size: 1.0em;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .txtsize {
+
+                font-size: 14px;
+            }
+
+            .responsive_head {
+                font-size: 1.0em;
+            }
+
+            .container2 {
+                padding: 0px 30px 0px 30px;
+            }
+
+            .courses-box1 .single-item-wrapper p {
+                font-size: 0.8em;
+            }
+
+            .p_txtsize_ad {
+                font-size: 0.7em;
+            }
+
+            .img_mobile {
+                min-height: 300px;
+            }
+        }
+
+        .testmonial-area {
+            position: relative;
+            width: 100%;
+            padding: 64px 0 79px;
+        }
+
+        .testmonial-area:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: 1;
+        }
+
+        .testmonial-area .item-holder {
+            position: relative;
+            z-index: 2;
+        }
+
+        .testmonial-area .testmonial-carousel .single-item .text-holder {
+            position: relative;
+            width: 100%;
+            padding: 0 57px 0 72px;
+        }
+
+        .testmonial-area .testmonial-carousel .single-item .text-holder p {
+            text-align: left;
+            margin-bottom: 47px;
+            margin-top: 10px;
+        }
+
+        /**** Paralex Sec ****/
+        .parallax,
+        .fixed-bg {
+            background-size: cover !important;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .fixed-bg {
+            background-attachment: fixed !important;
+            background-size: cover !important;
+        }
+
+        .fixed-bg.stop {
+            background-attachment: scroll !important
+        }
+
+        .bg1 {
+            background-image: url(admission_img/para/aero.jpg);
+        }
+
+
+        .parallax123 {
+            /* The image used */
+            background-image: url("admission_img/placement/speakers-bg-black.jpg");
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #dimg2 {
+            border-radius: 5px;
+            transition: transform .4s;
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+            margin: 0 auto;
+        }
+
+        #dimg2:hover {
+            -ms-transform: scale(1.0);
+            /* IE 9 */
+            -webkit-transform: scale(1.0);
+            /* Safari 3-8 */
+            transform: scale(1.0);
+        }
+
+        .parallax_coordinator {
+            /* The image used */
+            background-image: url("admission_img/ib.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /*=======================================================================
+[13] Lecturers Area
+=========================================================================*/
+
+        .lecturers-img-wrapper {
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .lecturers-img-wrapper img {
+            width: 100%;
+            -webkit-transition: all 1s ease-out;
+            -moz-transition: all 1s ease-out;
+            -ms-transition: all 1s ease-out;
+            -o-transition: all 1s ease-out;
+            transition: all 1s ease-out;
+        }
+
+        .lecturers-img-wrapper:hover img {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        .lecturers-content-wrapper {
+            text-align: center;
+        }
+
+        .lecturers-content-wrapper .item-title {
+            font-size: 1.2em;
+            font-weight: 100;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+        }
+
+        .lecturers-content-wrapper .item-designation {
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .post-img img {
+            background-color: white;
+        }
+
+        .mobile_view:hover {
+            background-color: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Header Start-->
+    <div class="lgx-container" style="border-bottom: 1px solid #FDBA2A">
+        <!--HEADER-->
+        <header>
+            <div class="topmobile visible-xs visible-sm">
+                <ul>
+                    <li style="color: white">
+                        <a href="https://indoreinstitute.com/">
+                            <i class="glyphicon glyphicon-home"></i>
+                        </a>|</li>
+                    <li style="color: white">
+                        <a href="tel:18001033069">
+                            <i style="padding-right: 10px;" class="glyphicon glyphicon-phone-alt"></i>1800 103 3069
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="purple  hidden-sm hidden-xs ">
+                <div class="container">
+                </div>
+            </div>
+            <div class="upper">
+                <div class="Pheader">
+                    <div class="container ">
+                        <div class="row center-block">
+                            <div class="col-md-12 hidden-sm hidden-md hidden-lg hidden-xl text-center">
+                                <a href="https://indoreinstitute.com/" target="_blank">
+                                    <img src="iist_logo.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="lgx-header" class="lgx-header maincolor"
+                style="-webkit-box-shadow: inset -1px 3px 8px 5px whitesmoke, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+              box-shadow: inset -1px 3px 8px 5px whitesmoke, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);">
+                <div class="lgx-header-position">
+                    <!--lgx-header-position-fixed lgx-header-position-white lgx-header-fixed-container lgx-header-fixed-container-gap lgx-header-position-white-->
+                    <div class="lgx-container">
+                        <!--lgx-container-fluid-->
+                        <nav class="navbar navbar-default lgx-navbar">
+                            <div class="navbar-header">
+                                <p class="navbar-toggle" id="mobile_view"
+                                    style=" border:none; float: left; color: white; font-size:1.4em;font-weight: bold;">
+                                    Admissions 2020</p>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div id="navbar" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav lgx-nav">
+                                    <li class="hidden-xs">
+                                        <a href="https://indoreinstitute.com/" target="_blank"> <img src="iist_logo.jpg"
+                                                class="img-responsive" style="vertical-align: middle;" alt=""> </a>
+                                    </li>
+                                    <li class="navid" style="margin-top:20px">
+                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                                            aria-haspopup="true" aria-expanded="false" style="color: black; ">About
+                                            Institute<span class="caret"></span></a>
+                                        <ul class="dropdown-menu multi-level" style="width: 550px">
+                                            <div class="col-md-5">
+                                                <h4>About Institute</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px;color: black;">
+                                                    <li><a href="https://indoreinstitute.com/iist/" target="_blank"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-hand-right"
+                                                                style="padding-right: 5px; color:#08356c;"></span>Engineering
+                                                            (IIST)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iip/" target="_blank"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-hand-right"
+                                                                style="padding-right: 5px; color:#08356c;"></span>Pharmacy
+                                                            (IIP)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iimr/" target="_blank"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-hand-right"
+                                                                style="padding-right: 5px; color:#08356c;"></span>Management
+                                                            (IIMR)</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-md-7">
+                                                <h4>Ranking</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px">
+                                                    <li><a href="https://drive.google.com/file/d/1lho8XitddN48qDTL1mko_GmN_7qmBx95/view"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-hand-right"
+                                                                style="padding-right: 5px; color:#08356c;"></span>ATAL
+                                                            RANKING (ARIIA)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/iic-activity/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-hand-right"
+                                                                style="padding-right: 5px; color:#08356c;"></span>MHRD
+                                                            Innovation Cell (IIC)</a></li>
+                                                    <li><a href="#Faculty" style="color: black;"><span
+                                                                class="glyphicon glyphicon-hand-right"
+                                                                style="padding-right: 5px; color:#08356c;"></span>VISIONARY
+                                                            LEADERSHIP</a></li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="navid" style="margin-top:20px">
+                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            style="color: black;">Courses<span class="caret"></span></a>
+                                        <ul class="dropdown-menu multi-level" style="width: 700px">
+                                            <div class="col-md-8">
+                                                <h4>B.Tech</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px;color: black;">
+                                                    <li><a href="https://indoreinstitute.com/iist/computer-science-engineering/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Computer Science and
+                                                            Engineering (CS)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/information-technology/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Information
+                                                            Technology (IT)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/electronics-communication/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Electronics &
+                                                            Communication Engineering (EC)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/mechanical-engineering/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Mechanical
+                                                            Engineering (ME)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/civil-engineering/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Civil Engineering
+                                                            (CE)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/chemical-engineering/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Chemical Engineering
+                                                            (CM)</a></li>
+                                                </ul>
+                                                <h4>Master Program (M.E.)</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px;color: black;">
+                                                    <li><a href="https://indoreinstitute.com/iist/electronics-communication/"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-education"
+                                                                style="padding-right: 10px"></span>Digital Communication
+                                                            (ECE)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/mechanical-engineering/"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-education"
+                                                                style="padding-right: 10px"></span>Machine Design
+                                                            (ME)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iist/computer-science-engineering/"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-education"
+                                                                style="padding-right: 10px"></span>Computer Science and
+                                                            Engineering (CSE)</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h4>Pharmacy</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px">
+                                                    <li><a href="https://indoreinstitute.com/iip/courses/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-erase"
+                                                                style="padding-right: 10px"></span>B.Pharma</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iip/courses/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-erase"
+                                                                style="padding-right: 10px"></span>D.Pharma</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iip/courses/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-erase"
+                                                                style="padding-right: 10px"></span>M.Pharma</a></li>
+                                                </ul>
+                                                <h4>Management</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px">
+                                                    <li><a href="https://indoreinstitute.com/iimr/mba/" target="_blank"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>MBA</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iimr/bba/" target="_blank"
+                                                            style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>BBA (Plain, FT)</a>
+                                                    </li>
+                                                    <li><a href="https://indoreinstitute.com/iimr/b-com-hons/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>B.Com (Hon.)</a></li>
+                                                    <li><a href="https://indoreinstitute.com/iimr/ba-honours-economics/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>B.A. (Ecom. Hon.)</a>
+                                                    </li>
+                                                    <li><a href="https://indoreinstitute.com/iimr/bachelor-of-science-mathematics-statistics-computer-science/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>B.Sc. (Maths, CS)</a>
+                                                    </li>
+                                                    <li><a href="https://indoreinstitute.com/iimr/bachelor-of-science-mathematics-statistics-computer-science/"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>B.Sc.
+                                                            (Statistics)</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="navid" style="margin-top:20px">
+                                        <a href="#admission_feestructure" style="color: black;" data-toggle="tooltip"
+                                            title="Fee Structure" data-placement="bottom">Fee
+                                            Structure</a>
+                                    </li>
+                                    <li class="navid" style="margin-top:20px">
+                                        <a href="#admission_placement" style="color: black;" data-toggle="tooltip"
+                                            title="View Placement" data-placement="bottom">Placements</a>
+                                    </li>
+                                    <li class="navid" style="margin-top:20px">
+                                        <a href="#admission_placement" style="color: black;" data-toggle="tooltip"
+                                            title="Download Brochure" data-placement="bottom">Brochure</a>
+                                        <!-- <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button"
+                                            aria-haspopup="true" aria-expanded="false" style="color: black;">Brochure<span class="caret"></span></a>
+                                     <ul class="dropdown-menu multi-level" style="width: 450px">
+                                            <div class="col-md-12">
+                                                <h4>Know More About Streams:</h4>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px;color: black;">
+                                                    <li><a href="https://drive.google.com/file/d/1GJlt0zq46sc2dUkZZmIo8hvmG_i-PJNx/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Computer Science and
+                                                            Engineering (CS)</a></li>
+                                                    <li><a href="https://drive.google.com/file/d/1EGj2PORj8UY4ANwaChwmIAcnP97ypxOZ/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Information
+                                                            Technology (IT)</a></li>
+                                                    <li><a href="https://drive.google.com/file/d/1e-RBQum1_yDUHBcwvxOIt67-4hoy39ov/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Electronics &
+                                                            Communication Engineering (EC)</a></li>
+                                                    <li><a href="https://drive.google.com/file/d/1aQWNTswP9DA3T8yzuRmSQAUvBZF3jTMo/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Mechanical
+                                                            Engineering (ME)</a></li>
+                                                    <li><a href="https://drive.google.com/file/d/1JtBWhhhx1iY6T2sWC-H8bu7wkb8jPcLl/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Civil Engineering
+                                                            (CE)</a></li>
+                                                    <li><a href="https://drive.google.com/file/d/1S55Wce25InUblTY1fnaLApl4rRKcg95k/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-cog"
+                                                                style="padding-right: 10px"></span>Chemical Engineering
+                                                            (CM)</a></li>
+                                                </ul>
+                                                <ul class="navmenupad"
+                                                    style="text-decoration: none; list-style-type: none;margin: 0px;padding: 0px;color: black;">
+                                                    <li><a href="https://drive.google.com/file/d/1KvWLk6Hh5_lrlSeh5iUo2DGEEJqz4lbX/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-erase"
+                                                                style="padding-right: 10px"></span>IIP: Pharmacy</a>
+                                                    </li>
+                                                    <li><a href="https://drive.google.com/file/d/12Z0taeOH7RGWkMwjydFVmz7V94k5zB6L/view?usp=sharing"
+                                                            target="_blank" style="color: black;"><span
+                                                                class="glyphicon glyphicon-tasks"
+                                                                style="padding-right: 10px"></span>IIMR: Management</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </ul>-->
+
+                                    </li>
+                                    <li class="navid" style="margin-top:20px">
+                                        <a href="#admission_glimpse" style="color: black;" data-toggle="tooltip"
+                                            title="Glimpse" data-placement="bottom">Glimpse</a>
+                                    </li>
+                                    <li class="shapes hidden-xs hidden-sm hidden-md"
+                                        style="margin-top:20px; background-color: #FDBA2A;" data-toggle="tooltip"
+                                        title="1800 103 3069" data-placement="bottom"><a class="lgx-scroll"
+                                            href="#admission_contact" style="color: black;">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!--/.nav-collapse -->
+                        </nav>
+                    </div>
+                    <!-- //.CONTAINER -->
+                </div>
+            </div>
+        </header>
+        <!--HEADER END-->
+    </div>
+    <!--Header End-->
+
+    <!--Slider Start-->
+    <section class="">
+        <div class="row" style="margin:0%;padding:0%">
+            <div class="col-md-12 mb-12" style="padding:0px;">
+                <div id="myCarousel" class="carousel slide caption-animate" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="admission_img/slider/Slider1.jpg" alt="iist" style="filter: brightness(100%);">
+                        </div>
+                        <div class="item">
+                            <img src="admission_img/slider/Slider2.jpg" alt="iist" style="filter: brightness(100%);">
+                        </div>
+                        <div class="item">
+                            <img src="admission_img/slider/Slider3.jpg" alt="iist" style="filter: brightness(100%);">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Slider End-->
+
+    <!-- Counter Area Start Here -->
+    <div class="counter-area bg-primary-deep"
+        style="background-image: url('admission_img/banner/4.jpg');padding-top: 2%;padding-bottom:3%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 counter1-box wow fadeInUp" data-wow-duration=".5s"
+                    data-wow-delay=".20s">
+                    <h2 class="about-counter title-bar-counter" data-num="130">130</h2>
+                    <p>PROFESSIONAL FACULTIES</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 counter1-box wow fadeInUp" data-wow-duration=".5s"
+                    data-wow-delay=".40s">
+                    <h2 class="about-counter title-bar-counter" data-num="24">24</h2>
+                    <p>SPECIAL INTEREST GROUPS</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 counter1-box wow fadeInUp" data-wow-duration=".5s"
+                    data-wow-delay=".60s">
+                    <h2 class="about-counter title-bar-counter" data-num="26">26</h2>
+                    <p>STUDENT DRIVEN CLUBS</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 counter1-box wow fadeInUp" data-wow-duration=".5s"
+                    data-wow-delay=".90s">
+                    <h2 class="about-counter title-bar-counter" data-num="5000">5000</h2>
+                    <p>SUCCESS STORIES</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter Area End Here -->
+
+
+    <!--Glimpse Start-->
+    <section id="admission_glimpse" style="margin-top: 0%; background-color:whitesmoke;">
+        <div class="courses1-area1">
+            <div class="container2" style="padding:0px 30px 0px 30px;" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div
+                            style="padding: 0%; position: relative;text-transform: uppercase;text-align: center;color: black;">
+                            <h2 class="txtsize" style="font-weight: bold;text-shadow: 1px 1px 0px #9E442A;">Glimpse of
+                                Institute
+                                <hr id="hr_row"
+                                    style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <!--//main row-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="news-slider1" class="owl-carousel">
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg" src="image/glimpses/iist/branch/cs/g0.jpg"
+                                            alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p style="text-align: center;"> Workshop on Node Js
+                                            Angular Js, GIT</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg" src="image/glimpses/iist/branch/cs/g1.jpg"
+                                            alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p> Seminar on Machine
+                                            Learning
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg"
+                                            src="image/glimpses/iist/branch/cs/g2.jpeg" alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p> Hands-on Session
+                                            on VR
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg" src="image/glimpses/iist/branch/cs/g3.jpg"
+                                            alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p>Signed MoU with
+                                            CiS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg" src="image/glimpses/iist/branch/cs/g4.jpg"
+                                            alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p>Seminar on Big
+                                            Data and Analytics
+                                        </p>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg" src="image/glimpses/iist/branch/cs/g5.jpg"
+                                            alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p> Felicitation
+                                            Program for IoT
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg" src="image/glimpses/iist/branch/cs/g6.jpg"
+                                            alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p>National
+                                            Level Inquizitive Minds Quiz
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="courses-box1">
+                                <div class="single-item-wrapper">
+                                    <div class="courses-img-wrapper hvr-bounce-to-bottom">
+                                        <img class="img-responsive" id="dimg"
+                                            src="image/glimpses/iist/branch/cs/g9.jpeg" alt="courses">
+                                    </div>
+                                    <div class="courses-content-wrapper">
+                                        <p> Hands-on Session
+                                            on JQuery and JS
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--//col-->
+        </div>
+    </section>
+    <!--Glimpse END-->
+
+    <!--Mou tie-ups-->
+    <section class="testmonial-area">
+        <div class="fixed-bg bg1"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div
+                        style="padding: 0%; position: relative;text-transform: uppercase;text-align: center;color: white;">
+                        <h2 class="txtsize" style="font-weight: bold;text-shadow: 2px 2px 0px rgb(15, 15, 15);">UNIQUE
+                            VALUE PROPOSITION
+                            <hr id="hr_row"
+                                style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                        </h2>
+                    </div>
+                    <div class="item-holder text-center" style="-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);">
+                        <img src="admission_img/mou/usp.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End mou tie-ups-->
+
+    <!--Fee Structure Start-->
+    <div id="admission_feestructure"
+        style="background: url(admission_img/fee/subscribe-bg-black.jpg) no-repeat center top / cover">
+        <div class="container">
+            <div style="padding: 0%; position: relative; text-transform: uppercase; text-align: center;color: white;">
+                <h2 class="txtsize" style="font-weight: bold;text-shadow: 1px 1px 0px #9E442A;">Fee Structure Session
+                    2020-21
+                    <hr id="hr_row"
+                        style="border: 0;  padding-top:0px; margin-bottom:-4%; height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                </h2>
+            </div>
+        </div>
+        <div class="container2" style="padding:0px 15px 0px 15px;">
+            <div class="lgx-subscriber-inner lgx-subscriber-inner-indiv">
+                <img style="border: 3px solid #0A273B;border-radius: 5px;" src="admission_img/fee/fee.jpg" height="100%"
+                    width="100%">
+            </div>
+        </div>
+    </div>
+    <!--Fee Structure End-->
+
+    <!--Testimonial Start-->
+    <section>
+        <div>
+            <div class="parallax_coordinator">
+                <div class="container" style="padding-bottom: 4%;">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div
+                                style="padding: 0%; position: relative;text-transform: uppercase;text-align: center;color: black;">
+                                <h2 class="txtsize" style="font-weight: bold;text-shadow: 1px 1px 0px #9E442A;">
+                                    Success Story
+                                    <p class="title-default-center p_txtsize_ad"
+                                        style="color: rgb(20, 20, 20);text-align: center;">
+                                        Double click on image to view in full screen</p>
+                                    <hr id="hr_row"
+                                        style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tz-gallery">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="rc-carousel" data-loop="true" data-items="2" data-margin="30"
+                                    data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="500"
+                                    data-dots="false" data-nav="false" data-nav-speed="false" data-r-x-small="1"
+                                    data-r-x-small-nav="false" data-r-x-small-dots="false" data-r-x-medium="2"
+                                    data-r-x-medium-nav="false" data-r-x-medium-dots="false" data-r-small="1"
+                                    data-r-small-nav="false" data-r-small-dots="false" data-r-medium="2"
+                                    data-r-medium-nav="false" data-r-medium-dots="false" data-r-large="2"
+                                    data-r-large-nav="false" data-r-large-dots="false">
+                                    <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                                        border-radius: 2px;">
+                                        <a class="lightbox" href="admission_img/testimonial/testimonials.jpeg">
+                                            <img class="img-responsive" id="dimg2"
+                                                src="admission_img/testimonial/testimonials.jpeg">
+                                        </a>
+                                    </div>
+                                    <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                                        border-radius: 2px;">
+                                        <a class="lightbox" href="admission_img/testimonial/care.jpg">
+                                            <img class="img-responsive" id="dimg2"
+                                                src="admission_img/testimonial/care.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                                        border-radius: 2px;">
+                                        <a class="lightbox" href="admission_img/testimonial/testimonials.jpeg">
+                                            <img class="img-responsive" id="dimg2"
+                                                src="admission_img/testimonial/hackathon.jpg">
+                                        </a>
+                                    </div>
+                                    <!--
+                                    <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                                        border-radius: 2px;">
+                                        <a class="lightbox" href="admission_img/testimonial/care.jpg">
+                                            <img class="img-responsive" id="dimg2"
+                                                src="admission_img/testimonial/sih.jpg">
+                                        </a>
+                                    </div>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonial End-->
+
+    <!--Campus Tour Start-->
+    <section style="margin-top: -3%;margin-bottom: -3%">
+        <div class="courses1-area"
+            style="background-image: linear-gradient( 89.7deg,  rgb(52, 65, 107) -10.7%, rgba(53,92,125,1) 88.8% );">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div
+                            style="padding: 0%; position: relative;text-transform: uppercase;text-align: center;color: black;">
+                            <h2 class="txtsize"
+                                style="font-weight: bold; text-transform: uppercase; color: white; text-align: center;padding-bottom: 7px;text-shadow: 1px 1px 0px rgb(48, 14, 14);">
+                                Campus Tour (360&#176; View)
+                                <p class="title-default-center p_txtsize_ad" style="color: white;text-align: center;">
+                                    DRAG YOUR MOUSE ON IMAGE TO VIEW 360&#176; EFFECT</p>
+                                <hr id="hr_row"
+                                    style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <!--//main row-->
+                <div class="row" style="float: none; padding-bottom: 30px;">
+                    <div class="col-md-4 testimonialcolumn">
+                        <div class="testimonialcard">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!4v1558600118436!6m8!1m7!1sCAoSLEFGMVFpcE0wdVctSFZhcUE2ZlpPV1hBendWOEh6U3laMzh6RTVGR2xHaDlp!2m2!1d22.6296794!2d75.78094899999999!3f167.39405834979394!4f6.0051518350115884!5f0.7820865974627469"
+                                width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <div class="testimonialcontainer" style="height: 60px;">
+                                <h4 class="heading_heading-1" style="font-family: 'Times New Roman', Times, serif"><i
+                                        class="fa fa-street-view" aria-hidden="true" style="padding-right:5px;"></i>
+                                    Virtual Tour</h4>
+                                <div class="heading_divider-1"> <span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mt-3">
+                        <div class="testimonialcard testimonialcolumn">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/P6AFkt222EY"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="testimonialcontainer" style="height: 60px;">
+                                <h4 class="heading_heading-1" style="font-family: 'Times New Roman', Times, serif"><a
+                                        href="https://indoreinstitute.com/video-gallery/" target="_blank"><i
+                                            class="fa fa-file-video-o" aria-hidden="true"
+                                            style="padding-right:5px;"></i>Visit Video Gallery</a></h4>
+                                <div class="heading_divider-1"> <span></span></div>
+                                <h4><b></b></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mt-3">
+                        <div class="testimonialcard">
+                            <img src="admission_img/banner/ig.jpg" width="100%" height="320" />
+                            <div class="testimonialcontainer" style="height: 60px;">
+                                <h4 class="heading_heading-1" style="font-family: 'Times New Roman', Times, serif"><a
+                                        href="https://indoreinstitute.com/apratim-prgaya-pratispardha/"
+                                        target="_blank"><i class="fa fa-camera" aria-hidden="true"
+                                            style="padding-right:5px;"></i>Visit Image Gallery</a></h4>
+                                <div class="heading_divider-1"> <span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Campus Tour end-->
+
+    <!--Placement Section Start here-->
+    <div id="admission_placement">
+        <div class="parallax123">
+            <div class="courses1-area12" style="background-color: transparent;padding-top: 50px;padding-bottom: 50px">
+                <div id="shadow-carousel" class="container"
+                    style="-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+                     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);"><br>
+                    <h2 class="txtsize"
+                        style="font-weight: bold; text-transform: uppercase; color: white; text-align: center;padding-bottom: 7px;text-shadow: 2px 2px 0px rgb(19, 18, 18);">
+                        Highest Placements in Madhya Pradesh</h2>
+                    <p class="p_txtsize" class="title-default-center" style="color: white;text-align: center;">
+                        "ENHANCING EMPLOYABILITY QUOTIENT WITH HOLISTIC
+                        DEVELOPMENT"</p>
+                    <img src="admission_img/placement/Placement.jpg" height="100%" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Placement Section End here-->
+
+
+    <!--  <div id="feedback" data-toggle="modal" data-target="#myModal">
+        <a href="#myModal">Quick Enquiry</a>
+    </div>-->
+    <!--
+   
+    <div id="myModal" class="modal fade" role="dialog" style="border-radius: 20px">
+        <div class="modal-dialog">
+          
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center">Enquiry Form</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">Fill Correct Details</div>
+                        <div class="panel-body">
+                            <form action="/action_page.php" style="max-width:500px;margin:auto">
+                                <div class="input-container">
+                                    <i class="fa fa-user icon1"></i>
+                                    <input class="input-field" type="text" placeholder="Full Name" name="fname">
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-envelope icon1"></i>
+                                    <input class="input-field" type="text" placeholder="Email" name="email">
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-phone-square icon1"></i>
+                                    <input class="input-field" type="text" placeholder="Contact Number" name="mobile">
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-book icon1"></i>
+                                    <select class="input-field" placeholder="Select Course" name="course">
+                                        <option value="" disabled selected>Select Course</option>
+                                        <option value="saab">B.Tech.</option>
+                                        <option value="mercedes">M.E.</option>
+                                        <option value="audi">MBA</option>
+                                    </select>
+                                </div>
+                                <div class="input-container">
+                                    <i class="fa fa-address-book icon1"></i>
+                                    <input class="input-field" type="text" placeholder="Enter City" name="psw">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+    <!-- Students Placement Area Start Here -->
+    <section class="students-join1-area">
+        <div class="container" style="margin-top: 3%; margin-bottom: 3%;">
+            <div class="students-join1-wrapper">
+                <div class="students-join1-left">
+                    <div id="ri-grid" class="author-banner-bg ri-grid header text-center">
+                        <ul class="ri-grid-list">
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/a2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/a3.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/b1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/b2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/c1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/c2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/d1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/d2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/e1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/e2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/f1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/f2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/g1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/g2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/h1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/i3.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/j2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/k1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/k2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/m1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/m2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/n1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/n2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/p1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/p2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/q1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/q2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/r1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/r2.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/s1.jpg" alt=""></a>
+                            </li>
+                            <li class="gridviewplacement">
+                                <a href="#"><img src="image/students/plc/s2.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="students-join1-right">
+                    <div class="section-btn-area">
+                        <i class="fa fa-trophy" style="font-size:72px;color:#DF7401;"></i>
+                        <h2>PLACEMENT<br> Session 2019-20</h2>
+                        <a class="lgx-btn" href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Students Placement Area End Here -->
+
+    <!--Testimonial Start-->
+    <section class="lgx-sponsors1">
+        <div class="lgx-inner">
+            <div class="container" style="margin-top: -5%; padding-top:0px">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="title-default-left responsive_head" style="text-align: center; color:#263945; "><i
+                                class="fa fa-quote-left" style="padding-right: 5px; color: #DF7401;"></i>LISTEN TO WHAT
+                            IISTians
+                            HAS TO SAY<i class="fa fa-quote-right" style="padding-left: 5px;color: #DF7401;"></i>
+                            <hr id="hr_row"
+                                style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                        </h2>
+                    </div>
+                </div>
+                <!--//main row-->
+                <div class="row" style="float: none">
+                    <div class="col-md-4 testimonialcolumn">
+                        <div class="testimonialcard">
+                            <iframe height="315" width="100%" src="https://www.youtube.com/embed/VicobvAjAsA"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="testimonialcontainer">
+                                <h4><b>Testimonial by Gurpreet S. Chera</b></h4>
+                                <p>Placed in JARO Education with package of 12LPA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mt-3">
+                        <div class="testimonialcard testimonialcolumn">
+                            <iframe height="315" width="100%" src="https://www.youtube.com/embed/Db7ky-XV1x8"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="testimonialcontainer">
+                                <h4><b>Testimonial by Keshav Gupta</b></h4>
+                                <p>Placed in Extra Marks with package of 3.2LPA.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mt-3">
+                        <div class="testimonialcard">
+                            <iframe height="315" width="100%" src="https://www.youtube.com/embed/NYwK3mVuj5Q"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <div class="testimonialcontainer">
+                                <h4><b>Testimonial by Vidushi Tiwari
+                                    </b></h4>
+                                <p>Placed in ICICI Bank with package of 3.2LPA.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-btn-area">
+                    <a class="lgx-btn" href="https://indoreinstitute.com/video-gallery/" target="_blank">View All</a>
+                </div>
+            </div>
+            <!--//col-->
+        </div>
+        <!--//row-->
+    </section>
+    <!--Testimonial END-->
+
+    <div id="Faculty">
+        <div class="parallax_coordinator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div
+                            style="padding: 0%; position: relative;text-transform: uppercase;text-align: center;color: black;">
+                            <h2 class="txtsize"
+                                style="font-weight: bold; text-transform: uppercase; color: black; text-align: center;padding-bottom: 7px;text-shadow: 1px 1px 0px rgb(48, 14, 14);">
+                                VISIONARY LEADERSHIP
+                                <hr id="hr_row"
+                                    style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3" style="padding-bottom: 25px;">
+                        <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                        border-radius: 2px;">
+                            <div class="lecturers1-item-wrapper">
+                                <div class="lecturers-img-wrapper">
+                                    <img class="img-responsive" id="dimg" src="admission_img/VLeadership/vl/ab.jpg">
+                                </div>
+                                <div class="lecturers-content-wrapper">
+                                    <h4 class="item-title"><a href="#">Shri Arun S. Bhatnagar</a></h4>
+                                    <span class="item-designation"> (IRS, Ex. Principal Commissioner)</span>
+                                    <span class="item-designation"> Exe. MBA, IIM(B)</span>
+
+                                    <ul class="lecturers-social" style="padding-bottom:10px;">
+                                        Director General (IIST IIP IIMR)
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9">
+                        <div class="rc-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true"
+                            data-autoplay-timeout="5000" data-smart-speed="500" data-dots="false" data-nav="false"
+                            data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="false"
+                            data-r-x-small-dots="false" data-r-x-medium="2" data-r-x-medium-nav="false"
+                            data-r-x-medium-dots="false" data-r-small="2" data-r-small-nav="false"
+                            data-r-small-dots="false" data-r-medium="3" data-r-medium-nav="false"
+                            data-r-medium-dots="false" data-r-large="3" data-r-large-nav="false"
+                            data-r-large-dots="false"
+                            style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;width: 100%; border-radius: 2px;">
+                            <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                            border-radius: 2px;">
+                                <div class="lecturers1-item-wrapper">
+                                    <div class="lecturers-img-wrapper">
+                                        <img class="img-responsive img_mobile" id="dimg"
+                                            src="admission_img/VLeadership/vl/rv.jpeg">
+                                    </div>
+                                    <div class="lecturers-content-wrapper">
+                                        <h4 class="item-title">Dr. VR Raghuveer</h4>
+                                        <span class="item-designation">Ph.D in AI</span>
+                                        <span class="item-designation">(Ex. Asso. Prof. VIT Vellore, TN)</span>
+                                        <ul class="lecturers-social" style="padding-bottom:10px;">
+                                            Principal, IIST
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                            border-radius: 2px;">
+                                <div class="lecturers1-item-wrapper">
+                                    <div class="lecturers-img-wrapper">
+                                        <img class="img-responsive img_mobile" id="dimg"
+                                            src="admission_img/VLeadership/vl/dm.jpg">
+                                    </div>
+                                    <div class="lecturers-content-wrapper">
+                                        <h4 class="item-title"><a href="#">Dr. Dinesh K. Mishra</a></h4>
+                                        <span class="item-designation">Ph.D.-Dr. H.S. Gour Univ. MP</span>
+                                        <span class="item-designation">Principal</span>
+                                        <ul class="lecturers-social" style="padding-bottom:10px;">
+                                            IIP
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                            border-radius: 2px;">
+                                <div class="lecturers1-item-wrapper">
+                                    <div class="lecturers-img-wrapper">
+                                        <img class="img-responsive img_mobile" id="dimg"
+                                            src="admission_img/VLeadership/vl/ss.jpeg">
+                                    </div>
+                                    <div class="lecturers-content-wrapper">
+                                        <h4 class="item-title"><a href="#">Dr. Simranjeet Kaur</a></h4>
+                                        <span class="item-designation">Ph.D.- JIWAJI Univ. MP</span>
+                                        <span class="item-designation">Principal</span>
+                                        <ul class="lecturers-social" style="padding-bottom:10px;">
+                                            IIMR
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="single-item" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width: 100%;
+                            border-radius: 2px;">
+                                <div class="lecturers1-item-wrapper">
+                                    <div class="lecturers-img-wrapper">
+                                        <img class="img-responsive" id="dimg"
+                                            src="admission_img/VLeadership/vl/CAO.jpg">
+                                    </div>
+                                    <div class="lecturers-content-wrapper">
+                                        <h4 class="item-title"><a href="#">Lt Col. Sidharth Rajguru</a></h4>
+                                        <span class="item-designation">Chief Administrative Officer</span>
+                                        <ul class="lecturers-social" style="padding-bottom:10px;">
+                                           IIST IIP IIMR
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Start industry-academia collaboration-->
+    <section class="lgx-sponsors">
+        <div class="lgx-inner">
+            <div class="container2" style="margin-bottom: -3%;margin-top:-4%;">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="title-default-left responsive_head" style="text-align: center; color:white;">industry
+                            academia collaboration
+                            <hr id="hr_row"
+                                style="border: 0;  padding-top:0px;height: 2px;background-image: linear-gradient( 122.3deg,  rgba(111,71,133,0) 14.6%, rgba(232,129,166,1) 29.6%, rgba(237,237,183,1) 42.1%, rgba(244,166,215,1) 56.7%, rgba(154,219,232,1) 68.7%, rgba(238,226,159,0) 84.8% );" />
+                        </h2>
+                    </div>
+                </div>
+                <!--//main row-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="news-slider123" class="owl-carousel">
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide7.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide8.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide9.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide10.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide11.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide12.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide13.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide14.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide15.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide16.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide17.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide18.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide19.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide20.png" alt="">
+                                </div>
+                            </div>
+                            <div class="post-slide">
+                                <div class="post-img">
+                                    <img src="admission_img/coll/icon/Slide21.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--//col-->
+            </div>
+        </div>
+        <!--//container-->
+    </section>
+    <!--industryacademia collaboration END-->
+
+    <!-- Start Footer -->
+    <footer class="footer" id="admission_contact">
+        <!-- Start Footer Bottom -->
+        <div class="bottom" style="background-color:#08356c">
+            <div class="container">
+                <h2 class="title-default-left responsive_head" style="text-align: center; color:#FF9F40;">Admissions
+                    2020 @ IIST IIP IIMR
+                    <hr id="hr_row"
+                        style="border: 0;  padding-top:0px; margin-bottom:-3%; height: 2px;background-image: linear-gradient(to right, rgba(64,96,120,0), rgba(64,96,120,0.75), rgba(64,96,120,0));" />
+                </h2>
+                <div class="row">
+                    <div class="col-sm-4 " style="text-align: center;">
+                        <h3 class="heading" style="text-align: center"><i class="fa fa-handshake-o"
+                                style="font-size:20px;color:#FDBA2A"></i> Connect with Us </h3>
+                        <a href="https://www.facebook.com/IISTcollegeindore/" target="_blank"
+                            class="fa fa-facebook fabottom facebook"></a>
+                        <a href="#" class="fa fa-twitter fabottom twitter"></a>
+                        <a href="https://www.linkedin.com/school/indore-institute/" target="_blank"
+                            class="fa fa-linkedin fabottom linkedin"></a>
+                        <a href="https://www.youtube.com/channel/UCBS90582OxZdw05BEn1TSAQ/featured" target="_blank"
+                            class="fa fa-youtube fabottom youtube1"></a>
+                        <a href="https://www.instagram.com/indoreinstitute1/" target="_blank"
+                            class="fa fa-instagram fabottom instagram"></a><br>
+                        <p style="text-align: center; font: 1.0em sans-serif; color:white;">
+                            admissions@indoreinstitute.com</p>
+                    </div>
+                    <div class="col-sm-4 Bborder">
+                        <div class="subscribe">
+                            <h3 class="heading" style="text-align: center"> <i class="fa fa-map-marker"
+                                    style="font-size:20px;color:#FDBA2A"></i> Address</h3>
+                            <div class="tnp tnp-widget-minimal">
+                                <div style="text-align: center; font: 1.1em sans-serif;"> <strong style="color: white;">
+                                        Opposite Indian
+                                        Institute of Management, Rau - Pithampur Rd, Rau, Indore, Madhya Pradesh 453331
+                                    </strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <div class="">
+                            <h3 class="heading" style="text-align: center"><i class="fa fa-phone"
+                                    style="font-size:20px;color:#FDBA2A;padding-right: 5px;"></i>Contact Us</h3>
+                            <div style="text-align: center; font: 1.1em sans-serif;"> <strong style="color: white;">Toll
+                                    Free: 1800
+                                    103 3069 <br> 822 507 1000, 822 507 2000, 822 507 3000<br> 822 407 1000, 822 407
+                                    2000, 822 407
+                                    3000</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+        <div>
+            <hr id="hr_row" style="border: 0;  padding-top:0px; margin-bottom:1%; height: 2px;" />
+
+            <p style="text-align:center; color:white">© <?php echo date("Y"); ?>. All rights reserved</p>
+        </div>
+    </footer>
+    <!--Footer Division end-->
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    <!--top scroll icon-->
+
+    <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
+
+
+    <!-- Getbutton.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+918224071000", // WhatsApp number
+                call: "+918224071000", // Call phone number
+                call_to_action: "Contact us", // Call to action
+                button_color: "#932C8B", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "call,whatsapp", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /Getbutton.io widget -->
+
+
+
+    <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+    <!-- JQUERY  -->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script> <!-- for for ACADEMIC COLLABORATIONS+Header Support-->
+    <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Smooth Scroll  -->
+    <script src="assets/libs/jquery.smooth-scroll.js"></script>
+    <!-- SKILLS SCRIPT for ACADEMIC COLLABORATIONS -->
+    <script src="assets/libs/jquery.validate.js"></script>
+    <!-- adding magnific popup js library for ACADEMIC COLLABORATIONS-->
+    <script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
+    <!-- Owl Carousel for ACADEMIC COLLABORATIONS  -->
+    <!-- Gridrotator js -->
+    <script src="js/jquery.gridrotator.js" type="text/javascript"></script><!-- Placement Grid js -->
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js" type="text/javascript"></script>
+    <!-- Srollup js -->
+    <script src="js/jquery.scrollUp.min.js" type="text/javascript"></script>
+    <!-- jquery.counterup js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- Countdown js/ Counter/  -->
+    <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js" type="text/javascript"></script>
+
+
+    <script>
+        $("#news-slider123").owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            slideTransition: 'linear',
+            autoplaySpeed: 3000,
+            autoplayTimeout: 100,
+            navText: ["<div><i class='fa fa-chevron-left'></i></div>", "<i class='fa fa-chevron-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                },
+                480: {
+                    items: 2,
+                    nav: false,
+                },
+                768: {
+                    items: 3,
+                    nav: true,
+                },
+                992: {
+                    items: 6,
+                    nav: true,
+                }
+            }
+        });
+    </script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            items: 5,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            navText: ["<div><i class='fa fa-chevron-left'></i></div>", "<i class='fa fa-chevron-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                },
+                480: {
+                    items: 2,
+                    nav: false,
+                },
+                768: {
+                    items: 3,
+                    nav: true,
+                },
+                992: {
+                    items: 6,
+                    nav: true,
+                }
+            }
+        });
+    </script>
+
+    <!---Academic COLLABORATIONS-->
+    <script>
+        $(document).ready(function () {
+            $("#news-slider1").owlCarousel({
+                items: 5,
+                itemsDesktop: [1199, 4],
+                itemsDesktopSmall: [980, 2],
+                itemsMobile: [600, 1],
+                pagination: false,
+                navigationText: false,
+                autoplay: true
+            });
+        });
+    </script>
+
+    <script src="jquery-advanced-news-ticker-master/jquery.newsTicker.js"></script>
+
+    <script>
+        jQuery(document).ready(function () {
+            var btn = $('#button');
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+            btn.on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, '300');
+            });
+        });
+    </script>
+
+    <!-- BOOTSTRAP JS  -->
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <!-- !--for for ACADEMIC COLLABORATIONS+Header Support+top Slider Support-->
+    <!-- CUSTOM SCRIPT  -->
+    <script src="assets/js/custom.script.js"></script> <!-- Header Support-->
+    <!--for for ACADEMIC COLLABORATIONS + Footer -->
+    <script>
+        // ===== Scroll to Top// Footer Support ==== 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function () {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0                       // Scroll to top of body
+            }, 500);
+        });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+
+</html>
